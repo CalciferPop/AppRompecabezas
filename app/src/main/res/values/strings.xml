@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Rompecabezas </string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_login2">Login </string>
+
+    <string name="title_activity_registro">Registro</string>
+
+    <string name="title_activity_seleccion">Seleccion Dificultad</string>
+
+    <string name="title_activity_acerca_de">Acerca De...</string>
+
+    <string name="strghugo">Sanchez Estrella Jose Hugo</string>
+    <string name="strITC">http://itcelaya.edu.mx/</string>
+    <string name="stremail">josehugo123@hotmail.com</string>
+    <string name="strPhone">(044) 461-110-88-41</string>
+    <string name="strSelecciona">Selecciona una tematica</string>
+    <string name="strSeleccionaDif">1; Selecciona una dificultad</string>
+    <string name="str_4piezas">4 piezas</string>
+    <string name="str_16piezas">16 piezas</string>
+    <string name="str_8piezas">8 piezas</string>
+    <string name="str_jugar">Jugar</string>
+    <string name="adve_RadioBu">Debes seleccionar una dificultad</string>
+    <string name="jugar4piezas">Dificultad Facil</string>
+    <string name="jugar16piezas">Dificultad Alta</string>
+    <string name="jugar8piezas">Dificultad Media</string>
+    <string name="str_noImgSelected">Debes seleccionar una imagen para jugar</string>
+    <string name="str_bienvenido">Bienvenido:  </string>
+    <string name="str_nuevoUsuario">Usuario Registrado:  </string>
+    <string name="strMuestraRanking">Ver Ranking</string>
+    <string name="str_noNick">DEBES INGRESAR UN NICKNAME Y UN PASSWORD</string>
+    <string name="str_bad_pass">Password Incorrecto</string>
+    <string name="strMarcaImagen">1; Marca una imagen para jugar</string>
+
+    <string name="success">Success!!</string>
+    <string name="next">Siguiente！！</string>
+    <string name="restart">Reiniciar？</string>
+    <string name="ok">Ok</string>
+    <string name="exit">exit</string>
+    <string name="complete">Completado，Bien Hecho！！</string>
+    <string name="tips">Tips</string>
+    <string name="str_insertR4">Puntuacion Insertada</string>
+    <string name="strMuestraRanking4">Ranking 4 piezas</string>
+    <string name="strMuestraRanking8">Ranking 8 piezas</string>
+    <string name="strMuestraRanking16">Ranking 16 piezas</string>
+    <string name="seleccionDif">Selecciona una dificultad</string>
+    <string name="lista_usuarios">Lista usuarios</string>
+    <string name="rompe">Rompecabezas</string>
+    <string name="seleccionaImagen">Selecciona una imagen</string>
+    <string name="rankin4piezas">Ranking 4 piezas</string>
+    <string name="ranking8piezas">Ranking 8  piezas</string>
+    <string name="ranking16piezas">Ranking 16 piezas</string>
+</resources>

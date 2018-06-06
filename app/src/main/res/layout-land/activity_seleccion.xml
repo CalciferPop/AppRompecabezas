@@ -1,0 +1,105 @@
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/primary"
+    android:fitsSystemWindows="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="#7bdcfc"
+        >
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/logo"
+            />
+        <TextView
+            android:id="@+id/txtDificultad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strSeleccionaDif"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/img_logo"
+            android:layout_marginLeft="15dp"
+
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@id/img_logo"
+            android:layout_below="@id/txtDificultad"
+            android:layout_marginLeft="15dp"
+            >
+        </android.support.design.widget.TextInputLayout>
+
+        <RadioGroup
+            android:id="@+id/btng_piezas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtDificultad"
+            android:layout_toRightOf="@id/img_logo"
+            android:layout_marginLeft="20dp"
+            android:layout_centerInParent="true"
+            >
+            <RadioButton
+                android:id="@+id/rdb_4piezas"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="@string/str_4piezas"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <RadioButton
+                android:id="@+id/rdb_8piezas"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="@string/str_8piezas"
+                android:layout_marginTop="10dp"
+                />
+
+            <RadioButton
+                android:id="@+id/rdb_16piezas"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="@string/str_16piezas"
+                android:layout_marginTop="10dp"
+                />
+
+        </RadioGroup>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_jugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="@string/str_jugar"
+            android:theme="@style/MyButton4"
+            android:layout_below="@id/btng_piezas"
+            android:layout_toRightOf="@id/img_logo"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            />
+    </RelativeLayout>
+
+
+</ScrollView>

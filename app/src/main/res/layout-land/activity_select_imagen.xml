@@ -1,0 +1,68 @@
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/primary"
+    android:fitsSystemWindows="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="#7bdcfc"
+        >
+        <TextView
+            android:id="@+id/txtSelectImagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strMarcaImagen"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+
+            android:layout_toRightOf="@id/img_logo"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/img_var_01"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_alignStart="@+id/txtSelectImagen"
+            android:layout_below="@+id/txtSelectImagen"
+            android:layout_marginStart="47dp" />
+
+        <ImageView
+            android:id="@+id/img_var_02"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+
+            android:layout_below="@+id/txtSelectImagen"
+            android:layout_marginStart="85dp"
+            android:layout_toEndOf="@+id/img_var_01" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_lanza_puzzle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSelectImagen"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="76dp"
+            android:layout_toEndOf="@+id/img_var_02"
+            android:padding="12dp"
+            android:text="Jugar"
+            android:theme="@style/MyButton" />
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

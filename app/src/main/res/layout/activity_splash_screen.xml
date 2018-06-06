@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+
+    tools:context="com.example.hugopc.rompecabezas2.Splash_screenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:src="@drawable/logo2"
+        android:id="@+id/img_logo"
+        android:layout_centerInParent="true"
+        />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <ProgressBar
+        android:id="@+id/progressBarSplash"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="#df1313"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/img_logo"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>

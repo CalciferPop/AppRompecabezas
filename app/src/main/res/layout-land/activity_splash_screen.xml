@@ -1,0 +1,43 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#7bdcfc"
+    tools:context="com.example.hugopc.rompecabezas2.Splash_screenActivity"
+    android:stretchColumns="*"
+    android:fitsSystemWindows="true"
+    >
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="20dp"
+            android:layout_height="260dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/logo" />
+
+        <ProgressBar
+            android:id="@+id/progressBarSplash"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:indeterminateTintMode="src_atop"
+            android:indeterminateTint="#df1313"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img_logo"
+            />
+
+
+    </TableRow>
+
+
+</TableLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/primary"
+    android:fitsSystemWindows="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context="com.example.hugopc.rompecabezas2.AcercaDeActivity"
+    >
+
+    <ImageView
+        android:id="@+id/img_logoAcercaDE"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="10dp"
+
+        android:src="@drawable/logo"
+
+        />
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/strghugo"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_below="@id/img_logoAcercaDE"
+        />
+
+
+
+    <TextView
+        android:id="@+id/txtWebTec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/strITC"
+        android:layout_below="@id/txtNombre"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txtEmailHugo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/stremail"
+        android:layout_below="@id/txtWebTec"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/txtPhoneHugo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/strPhone"
+        android:layout_below="@id/txtEmailHugo"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+</RelativeLayout>
+</ScrollView>

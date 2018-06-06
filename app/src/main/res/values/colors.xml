@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3a92f7</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#1427fc</color>
+    <color name="primary_dark">#001f39</color>
+    <color name="primary">#9dd0fa</color>
+    <color name="turquesa">#04937b</color>
+    <color name="turquesa2">#09f9d0</color>
+    <color name="four_piezas">#d945c3</color>
+    <color name="four_piezas_ligth">#edafe4</color>
+
+    <color name="warning">#ea0b1d</color>
+    <color name="success">#47d644</color>
+
+    <color name="easy">#40e417</color>
+    <color name="medium">#22e4dd</color>
+    <color name="hard">#f13648</color>
+    <color name="info">#13d0ed</color>
+
+
+
+
+    <color name="black_overlay">#66000000</color>
+</resources>
